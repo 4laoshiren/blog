@@ -16,5 +16,3 @@
         project_img="https://raw.githubusercontent.com/4laoshiren/oh-my-starship/main/readme-icon.png"
     />
 </template>
-
-<style scoped></style>

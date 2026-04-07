@@ -10,7 +10,3 @@
         <NuxtLink to="/bookmarks">/bookmarks</NuxtLink>
   </nav>
 </template>
-
-<style scoped>
-
-</style>

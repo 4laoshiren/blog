@@ -8,5 +8,3 @@ const { data } = await useAsyncData(() =>
 <template>
     <ContentRenderer :value="data" />
 </template>
-
-<style scoped></style>

@@ -4,5 +4,3 @@
     <HomeIntro />
     <HomeSocialLinks />
 </template>
-
-<style scoped></style>

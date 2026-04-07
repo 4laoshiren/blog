@@ -7,7 +7,3 @@
     <iframe src="/sunlit/index.html" class="fixed -z-10 w-full h-full border-none"></iframe>
     <slot />
 </template>
-
-<style scoped>
-
-</style>

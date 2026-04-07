@@ -14,5 +14,3 @@ const props = defineProps([
         <img :src="props.project_img" width="48" height="48" />
     </a>
 </template>
-
-<style scoped></style>

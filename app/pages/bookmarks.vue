@@ -9,5 +9,3 @@
       verialabs.com/blog
     </a>
 </template>
-
-<style scoped></style>

@@ -14,5 +14,3 @@ const props = defineProps([
         </div>
     </NuxtLink>
 </template>
-
-<style scoped></style>

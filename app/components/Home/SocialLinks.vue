@@ -11,5 +11,3 @@
         <Icon name="fa6-brands:bandcamp" />
     </NuxtLink>
 </template>
-
-<style scoped></style>

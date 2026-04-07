@@ -118,44 +118,6 @@ body {
   animation: billow 8s ease-in-out infinite;
 }
 
-#blinds {
-  position: relative;
-  width: 100%;
-}
-
-#blinds .shutter,
-#blinds .bar {
-  background-color: var(--shadow);
-}
-
-#blinds>.shutters {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 60px;
-  transition: gap 1.0s var(--timing-fn);
-}
-
-#blinds>.vertical {
-  top: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.vertical>.bar {
-  width: 5;
-  height: 100%;
-}
-
-.shutter {
-  width: 100%;
-  height: 40px;
-  transition: height 1.0s var(--timing-fn);
-}
-
 @keyframes billow {
   0% {
     transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale(1);

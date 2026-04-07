@@ -13,5 +13,3 @@
         article_description="A simple way to convert a SVG to PNG using Canvas"
     />
 </template>
-
-<style scoped></style>
