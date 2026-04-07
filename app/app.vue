@@ -1,7 +1,9 @@
 <template>
-    <AppNavbar />
-        <UContainer>
-            <NuxtPage />
-        </UContainer>
-    <AppFooter />
+    <NuxtLayout>
+        <AppNavbar />
+            <UContainer>
+                <NuxtPage />
+            </UContainer>
+        <AppFooter />
+    </NuxtLayout>
 </template>
