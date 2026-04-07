@@ -4,9 +4,9 @@
 
 <template>
   <nav>
-        <NuxtLink to="/">/</NuxtLink>
-        <NuxtLink href="/articles">/articles</NuxtLink>
-        <NuxtLink to="/projects">/projects</NuxtLink>
-        <NuxtLink to="/bookmarks">/bookmarks</NuxtLink>
+        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink href="/articles">Articles</NuxtLink>
+        <NuxtLink to="/projects">Projects</NuxtLink>
+        <NuxtLink to="/bookmarks">Bookmarks</NuxtLink>
   </nav>
 </template>
