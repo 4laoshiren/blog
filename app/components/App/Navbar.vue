@@ -10,6 +10,7 @@
     </nav>
 </template>
 
+<!-- 仅字体使用原生css实现 -->
 <style scoped>
 nav {
     font-family: DM Serif Display;
