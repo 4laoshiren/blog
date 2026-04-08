@@ -2,7 +2,6 @@
 
 <template>
     <AppHeader title="Projects" description="Some of my fantacies." />
-    <p>this is the test page for projects</p>
     <AppProjectCard
         project_src="https://github.com/4laoshiren/oh-my-starship"
         project_name="oh-my-starship"

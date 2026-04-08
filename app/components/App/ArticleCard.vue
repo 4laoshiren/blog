@@ -7,10 +7,11 @@ const props = defineProps([
 </script>
 
 <template>
-    <NuxtLink class="block mb-3 hover:underline" :to="props.article_virtual_path">
+    <NuxtLink class="hover:underline" :to="props.article_virtual_path">
             <span>{{ props.article_title }}</span>
             <br>
             <span>{{ props.article_description }}</span>
+            <br>
             <br>
     </NuxtLink>
 </template>

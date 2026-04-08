@@ -12,5 +12,6 @@ const props = defineProps([
         <br>
         <span>{{ props.project_description }}</span>
         <br>
+        <br>
     </a>
 </template>
