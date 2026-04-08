@@ -5,6 +5,14 @@
     font-family: Noto Serif SC;
 }
 
+pre {
+    background-color: transparent;
+}
+
+pre code {
+    font-family: 'Maple Mono';
+}
+
 ::selection {
     background-color: #b4c3be;
 }
