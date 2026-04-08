@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <AppHeader title="Articles" description="Things I want to share" />
+    <AppHeader title="Articles" description="Things I want to share." />
     <AppArticleCard
         article_virtual_path="articles/building-your-first-api-with-expressjs-a-beginners-guide"
         article_title="Building Your First API with Express.js: A Beginner's Guide"
