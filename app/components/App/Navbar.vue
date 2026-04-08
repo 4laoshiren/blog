@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-    <nav class="flex flex-col px-8 pt-20 gap-3">
+    <nav class="sticky top-0 h-screen flex flex-col px-8 pt-20 gap-3">
         <NuxtLink class="text-2xl font-bold" to="/">zz4zz</NuxtLink>
         <NuxtLink class="hover:underline" to="/">Home</NuxtLink>
         <NuxtLink class="hover:underline" href="/articles">Articles</NuxtLink>
