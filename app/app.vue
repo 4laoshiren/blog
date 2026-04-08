@@ -1,4 +1,5 @@
 <template>
+    <NuxtLoadingIndicator color="#2e4c72" />
     <NuxtLayout>
         <div class="flex min-h-screen">
             <AppNavbar />
