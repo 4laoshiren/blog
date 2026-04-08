@@ -7,8 +7,10 @@ const props = defineProps([
 </script>
 
 <template>
-    <a class="block mb-3 hover:underline" target="_blank" :href="props.project_src">
-        <h3>{{ props.project_name }}</h3>
-        <p>{{ props.project_description }}</p>
+    <a class="hover:underline" target="_blank" :href="props.project_src">
+        <span>{{ props.project_name }}</span>
+        <br>
+        <span>{{ props.project_description }}</span>
+        <br>
     </a>
 </template>
