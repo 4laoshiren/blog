@@ -19,8 +19,8 @@ export default defineNuxtConfig({
             markdown: {
                 highlight: {
                     theme: "github-light",
-                }
-            }
-        }
+                },
+            },
+        },
     },
 });

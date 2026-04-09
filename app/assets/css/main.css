@@ -2,7 +2,7 @@
 @import "@nuxt/ui";
 
 :root {
-    font-family: Noto Serif SC;
+    font-family: serif;
 }
 
 pre {
