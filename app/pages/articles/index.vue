@@ -12,4 +12,9 @@
         article_title="How to convert a SVG to PNG using Canvas"
         article_description="A simple way to convert a SVG to PNG using Canvas"
     />
+    <AppArticleCard
+        article_virtual_path="/articles/ruankao"
+        article_title="软考数据库"
+        article_description="软考数据库知识点"
+    />
 </template>
