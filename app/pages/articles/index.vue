@@ -17,4 +17,9 @@
         article_title="软考数据库"
         article_description="软考数据库知识点"
     />
+    <AppArticleCard
+        article_virtual_path="/articles/dom-based-xss-from-both-attckers-and-developers-view"
+        article_title="DOM-based XSS Optimizing"
+        article_description="Everything I know about DOM-based XSS"
+    />
 </template>
