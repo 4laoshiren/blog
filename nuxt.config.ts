@@ -23,5 +23,5 @@ export default defineNuxtConfig({
             },
         },
     },
-    sourcemap: true,
+    // sourcemap: true,
 });
