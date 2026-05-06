@@ -1,0 +1,3 @@
+nuxt内置transition要求pages组件必须有根节点，统一使用div
+
+所有组件在没有根组件需求下，均使用div根节点，保持一致
