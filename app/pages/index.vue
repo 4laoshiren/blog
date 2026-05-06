@@ -1,4 +1,6 @@
 <template>
-    <HomeIntro />
-    <HomeSocialLinks />
+    <div>
+        <HomeIntro />
+        <HomeSocialLinks />
+    </div>
 </template>
