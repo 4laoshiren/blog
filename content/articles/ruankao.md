@@ -637,6 +637,34 @@ sql中的select对应的关系模型的操作 投影 where对应选择
 NOT IN 和 NOT EXIST 相同点和区别：都写在where关键字后面 后者之前不可能有列名，表示为假，就执行
 改动表的顺序：被依赖的后改动
 drop和delete差别：delete删记录 drop删属性
+
+范式
+依赖关系箭头指向：决定方向为箭头指向 从左往右
+2NF的定义：每个非主属性完全依赖于任意一个候选码
+判断是否存在冗余：造成表不满足2NF/3NF的属性 就是冗余属性
+
+存储过程
+创建存储过程：	CREATE PROCEDURE
+局部变量声明 赋值用:=
+无group by情况下，能否使用聚集函数？ 可以 将整个表当作一个group
+
+触发器
+关键字：
+AFTER/BEFORE触发时机1、
+触发事件update/delete/insert、
+WHEN-AND触发时机2、
+行级触发器/语句级触发器
+行级：FOR EACH ROW + NEW.xxx<>/OLD.xxx<>表示分界
+语句级：FOR EACH STATEMENT(默认情况 无NEWOLD 只触发一次)
+行级中需要注意，写到属性名考虑是否要写成NEW.xxx/OLD.xxx 用来表示新改变的这一条（之前）的值 而不是单纯的这一整列
+触发器和局部变量声明以外的函数逻辑区块：BEGIN-END
+显式提交 COMMIT(EXCEPTION ROLLBACK)、
+
+并发控制
+x锁的理解：从write到第一个commit/rollback 都属于x锁状态
+
+故障恢复
+commit和checkpoint位置关系：根据前后无 显然 正常 正常（redo） 撤销undo
 ```
 
 
