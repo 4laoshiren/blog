@@ -1,6 +1,6 @@
 ---
 title: "燃烧"
-description: "null"
+description: "---"
 published: 2026/4/27
 path: /articles/burning
 ---
