@@ -1,3 +1,10 @@
+---
+title: "软考数据库"
+description: "软考数据库知识点"
+published: 2026/4/2
+path: "/articles/ruankao"
+---
+
 ```1
 1
 第一章

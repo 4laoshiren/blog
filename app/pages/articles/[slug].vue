@@ -1,10 +1,11 @@
 <script setup>
 const route = useRoute();
-const { data } = await useAsyncData(() =>
-    queryCollection("content").path(route.path).first()
+// 解包queryCollection的返回结果中的data属性, 重命名成articles, 语义上更好, 且与content.config.ts保持一致
+const { data: articles } = await useAsyncData(() =>
+    queryCollection("articles").path(route.path).first()
 );
 </script>
 
 <template>
-    <ContentRenderer :value="data" />
+    <ContentRenderer :value="articles" />
 </template>

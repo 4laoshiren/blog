@@ -1,3 +1,10 @@
+---
+title: "燃烧"
+description: "null"
+published: 2026/4/27
+path: /articles/burning
+---
+
 今天我意识到：比起坏的事物的蓬勃发展，我更不愿看到美好的事物消逝
 
 心中那不知该向哪释放的，无名的怒火，燃烧得更强烈了
