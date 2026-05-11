@@ -1,4 +1,4 @@
-<script setup></script>
+<!-- <script setup></script>
 
 <template>
     <div id="dappled-light">
@@ -217,4 +217,4 @@
         transform: perspective(400px) rotateX(0deg) rotateY(0deg) scale(1);
     }
 }
-</style>
+</style> -->
